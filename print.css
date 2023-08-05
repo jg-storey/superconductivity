@@ -1,0 +1,36 @@
+
+.headerdiv{
+    border-style:none;
+    box-shadow:none;
+  }
+
+  .homebutton{
+    display:none;
+  }
+
+
+.title{
+    text-shadow:none;
+    color:black;
+    padding:0;
+}
+
+h1, h2, ul, a, p{
+    color:black;
+}
+
+h2{
+    text-shadow: none;;
+}
+
+a[href]:after{
+    color:blue;
+    content: " [" attr(href) "] ";
+  }
+
+
+  @media print {
+    #myBtn {
+      display: none;
+    }
+  }
